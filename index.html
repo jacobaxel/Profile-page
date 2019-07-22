@@ -8,7 +8,8 @@
         
         <link rel="stylesheet" type="text/css" href="style.css">
         <!--^this tells the HTML that there is a sheet about fAsHiOn (written in css) and located in the file style.css-->
-    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        
         <!--fun challenge - try fonts.google.com and see if you can add fun fonts to your page.-->
     </head>
     
@@ -28,14 +29,14 @@
             <div id="bio" class="boldText">
                 <p>I was born and raised in New York City, New York.</p>
                 <p>I attended P.S. 158, East Side Middle School, and The Bronx High School of Science.</p>
-                <img src="https://static.wixstatic.com/media/be2bca_b0939927f39d45c1a95c102a4980320d~mv2.jpg/v1/fit/w_498,h_494,q_90/file.jpg">
-                <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/1012/site/settings/7cff07f8-d579-4423-83bf-dad202c0cfd7?AWSAccessKeyId=AKIAJSZKIBPXGFLSZTYQ&Expires=1821761314&response-cache-control=private%2C%20max-age%3D31536000&response-content-disposition=attachment%3Bfilename%3D%22ESMS_LOGO.png%22&response-content-type=image%2Fpng&Signature=G05cjGizltebvnRrqVGTuKvhOTQ%3D"><img src="https://bxscience.edu/ourpages/auto/2012/8/28/46653008/BXSci%20Logo%20New.jpg">
+                <div id="images"><img src="https://static.wixstatic.com/media/be2bca_b0939927f39d45c1a95c102a4980320d~mv2.jpg/v1/fit/w_498,h_494,q_90/file.jpg">
+                <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/1012/site/settings/7cff07f8-d579-4423-83bf-dad202c0cfd7?AWSAccessKeyId=AKIAJSZKIBPXGFLSZTYQ&Expires=1821761314&response-cache-control=private%2C%20max-age%3D31536000&response-content-disposition=attachment%3Bfilename%3D%22ESMS_LOGO.png%22&response-content-type=image%2Fpng&Signature=G05cjGizltebvnRrqVGTuKvhOTQ%3D"><img src="https://bxscience.edu/ourpages/auto/2012/8/28/46653008/BXSci%20Logo%20New.jpg"></div>
                 <p>I am currently interning at JP Morgan Chase & Co. as part of the Fintech Focus program.</p>
                 
             </div>
             
             <div id="specialSkills" class="italicText">
-                <p>Special Skills</p>
+                <p id=SS>Special Skills</p>
                 <ul>
                     <li>Can read and write in spanish</li>
                     <li>Competent in python, html, and CSS</li>
@@ -51,6 +52,8 @@
             </div>
         </div>
         
+     
         <!--anything you put here is in the body but outside all divs!-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     </body>
 </html>

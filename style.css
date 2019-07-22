@@ -11,8 +11,13 @@ body{
     /*you could add more properties to change right in here, no need to call body again.*/
     font-family: "Courier New", serif;
     border: dashed 8px #00FF2A;
+    text-align: center;
+    font-size: 16px;
     
 }
 
 .boldText {font-weight: bold;}
 .italicText {font-style: italic}
+#images {border: solid 2px black}
+#SS {font-size: 20px}
+title{text-align: center;}
